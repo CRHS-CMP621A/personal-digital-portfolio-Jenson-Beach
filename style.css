@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(50, 175, 104);
+}
+header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  list-style-type: none;
+  color: darkturquoise;
+  display: flex;
+}
+.topper {
+  margin: 15px;
+  padding: 15px;
+  border-color: lightblue;
+  border-width: 5px;
+  border-style: double;
+  background-color: slategray;
+}
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.avatar {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.maintext {
+  color: rgb(35, 41, 51);
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer {
+  color: rgb(35, 41, 51);
+}
