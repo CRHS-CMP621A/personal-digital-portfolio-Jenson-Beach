@@ -1,15 +1,12 @@
 body {
   background-color: rgb(50, 175, 104);
+  height: 900px;
 }
-header {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.nav {
+nav {
+  grid-template-columns: auto auto auto auto a;
   list-style-type: none;
   color: darkturquoise;
-  display: flex;
+  text-align: center;
 }
 .topper {
   margin: 15px;
@@ -18,21 +15,29 @@ header {
   border-width: 5px;
   border-style: double;
   background-color: slategray;
+  display: inline-block;
 }
 .container {
   display: grid;
   grid-template-rows: auto auto;
+
+  margin: 15px;
+  padding: 15px;
+  border-color: lightblue;
+  border-width: 5px;
+  border-style: double;
+  background-color: slategray;
 }
 .avatar {
   width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 800px;
 }
 .maintext {
   color: rgb(35, 41, 51);
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 800px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: scroll;
 }
 footer {
   color: rgb(35, 41, 51);
