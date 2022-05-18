@@ -1,9 +1,21 @@
 body {
   background-color: rgb(50, 175, 104);
   height: 900px;
+  border-style: solid;
+  border-color: black;
+}
+.header {
+  border-style: solid;
+  border-color: black;
+  grid-template-columns: 1fr 1fr 2fr;
+  background-color: wheat;
+  padding: 3px;
+}
+.logo {
+  height: 150px;
 }
 nav {
-  grid-template-columns: auto auto auto auto a;
+  grid-template-columns: auto auto auto auto auto;
   list-style-type: none;
   color: darkturquoise;
   text-align: center;
@@ -18,27 +30,28 @@ nav {
   display: inline-block;
 }
 .container {
-  display: grid;
-  grid-template-rows: auto auto;
-
-  margin: 15px;
-  padding: 15px;
   border-color: lightblue;
   border-width: 5px;
   border-style: double;
   background-color: slategray;
+  display: grid;
+  grid-template: 400px / 1fr 2fr 1fr;
 }
 .avatar {
-  width: 300px;
-  margin-right: 800px;
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+  background-color: blue;
 }
 .maintext {
   color: rgb(35, 41, 51);
-  margin-left: 50px;
-  margin-right: 800px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   overflow: scroll;
+  height: 230px;
+  text-align: center;
 }
 footer {
   color: rgb(35, 41, 51);
+  border-style: solid;
+  border-color: black;
 }
