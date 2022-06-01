@@ -1,4 +1,5 @@
 body {
+  display: grid;
   background-color: rgb(50, 175, 104);
   height: 900px;
   border-style: solid;
@@ -33,25 +34,34 @@ nav {
   border-color: lightblue;
   border-width: 5px;
   border-style: double;
+  height: 550px;
   background-color: slategray;
   display: grid;
-  grid-template: 400px / 1fr 2fr 1fr;
+  grid-template-columns: auto auto auto;
+}
+.sections {
+  align-self: center;
+  grid-row: 1 / span 2;
+  width: 180px;
 }
 .avatar {
   width: 200px;
-  align-self: center;
+  margin-right: 30px;
   justify-self: center;
-  background-color: blue;
 }
 .maintext {
   color: rgb(35, 41, 51);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  overflow: scroll;
-  height: 230px;
+  height: 200px;
+  max-width: 500px;
+  margin-left: 30px;
   text-align: center;
+  overflow-y: scroll;
+  padding: 9px;
 }
 footer {
   color: rgb(35, 41, 51);
   border-style: solid;
   border-color: black;
+  align-self: flex-end;
 }
