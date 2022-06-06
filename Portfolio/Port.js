@@ -1,1 +1,1 @@
-addEventListener
+document.querySelector()
