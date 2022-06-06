@@ -52,10 +52,12 @@ nav {
   justify-self: center;
   grid-row: 1 / span 2;
   width: 180px;
+  height: 400px;
   background-color: wheat;
   border-color: burlywood;
   border-style: outset;
   border-width: 10px;
+  justify-content: space-evenly;
 }
 .avatar {
   width: 200px;
@@ -79,6 +81,14 @@ nav {
   text-align: center;
   overflow-y: scroll;
   padding: 9px;
+  background-color: wheat;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+}
+.Socials{
+  margin-right: 20px;
+  height: 200px;
   background-color: wheat;
   border-color: burlywood;
   border-style: outset;
