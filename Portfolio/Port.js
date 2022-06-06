@@ -1,1 +1,5 @@
-document.querySelector()
+function green(){
+    
+}
+
+document.querySelector(".navi").addEventListener("click" green)
