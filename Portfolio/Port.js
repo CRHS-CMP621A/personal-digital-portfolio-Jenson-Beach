@@ -1,5 +1,6 @@
 function green(){
-    
+    alert("hi")
+
 }
 
-document.querySelector(".navi").addEventListener("click" green)
+document.querySelector(".navi").addEventListener("click", green)
