@@ -59,8 +59,13 @@ nav {
 }
 .avatar {
   width: 200px;
-  margin-right: 135px;
+  margin-right: 105px;
   justify-self: center;
+  border-style: double;
+  border-color: burlywood;
+  border-width: 10px;
+  background-color: wheat;
+  border-radius: 135px;
 }
 .Feature {
   align-self: flex-end;
@@ -83,6 +88,15 @@ nav {
   border-color: burlywood;
   border-style: outset;
   border-width: 10px;
+}
+.socials {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+  background-color: wheat;
 }
 footer {
   background-color: wheat;
