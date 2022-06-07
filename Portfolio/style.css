@@ -44,13 +44,74 @@ li.topper a,
 }
 
 li.topper a:hover,
-.dropdown:hover .dropbtn {
+.genius:hover .dropbtn {
   background-color: darkturquoise;
   color: white;
 }
 
+li.genius {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.genius:hover .dropdown-content {
+  display: block;
+} /*end of the painful navbar*/
+/*
+ul.list1 {
+  /*start of the painful navbar
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+  position: fixed; /* Set the navbar to fixed position 
+  top: 0; /* Position the navbar at the top of the page 
+  width: 100%; /* Full width 
+}
+
+li.list2 {
+  float: left;
+}
+
+li.list2 a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.list2 a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
 li.dropdown {
   display: inline-block;
+  position: fixed; /* Set the navbar to fixed position 
+  top: 0; /* Position the navbar at the top of the page 
+  width: 100%; /* Full width 
 }
 
 .dropdown-content {
@@ -77,6 +138,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 } /*end of the painful navbar*/
+
 .topper {
   margin: 15px;
   padding: 15px;
