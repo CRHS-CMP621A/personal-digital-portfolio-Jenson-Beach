@@ -124,6 +124,7 @@ li.dropdown {
   border-color: burlywood;
   border-style: outset;
   border-width: 10px;
+  max-width: 400px;
 }
 .maintext {
   color: rgb(35, 41, 51);
@@ -140,6 +141,7 @@ li.dropdown {
   border-width: 10px;
 }
 .socials {
+  max-width: 400px;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -147,6 +149,28 @@ li.dropdown {
   border-style: outset;
   border-width: 10px;
   background-color: wheat;
+}
+.instagram{
+  width: 80px;
+  float: right;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.snapchat{
+  width: 150px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.discord{
+  width: 90px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.email{
+  width: 100px;
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
 }
 footer {
   background-color: wheat;
