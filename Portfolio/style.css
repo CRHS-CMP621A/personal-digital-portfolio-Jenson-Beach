@@ -1,0 +1,166 @@
+body {
+  display: grid;
+  background-color: rgb(50, 175, 104);
+  height: auto;
+  border-color: rgba(139, 12, 12, 0.555);
+  border-style: solid;
+  border-width: 5px;
+}
+.header {
+  height: 170px;
+  display: flex; /*header displayed in a flex format seperate from the main container*/
+  background-color: wheat;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+  background-color: wheat;
+  padding: 3px;
+  justify-content: space-between;
+}
+.logo {
+  height: 150px;
+  align-self: center;
+  margin-left: 10px;
+}
+.navi {
+  grid-template-columns: auto auto auto auto auto;
+  list-style-type: none;
+  color: darkturquoise;
+  text-align: right;
+  align-self: center;
+}
+ul.navi {
+  /*navi short for navigation*/
+  list-style-type: none;
+  margin-top: 40px;
+  overflow: hidden;
+}
+li.topper a:hover,
+.genius:hover .dropbtn {
+  background-color: darkturquoise;
+  color: white;
+  cursor: default;
+}
+li.genius {
+  display: inline-block;
+}
+.topper { /*topper being a name for top of page*/
+  margin: 15px;
+  padding: 15px;
+  border-color: lightblue;
+  border-width: 5px;
+  border-style: double;
+  background-color: slategray;
+  display: inline-block;
+}
+.container { /*container includes all element with an exception of the footer*/
+  border-color: lightblue;
+  border-width: 5px;
+  border-style: double;
+  height: 550px;
+  background-color: slategray;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.sections {
+  align-self: center;
+  justify-self: center;
+  grid-row: 1 / span 2;
+  width: 180px;
+  height: 400px;
+  background-color: wheat;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+  justify-content: space-evenly;
+}
+.avatar {
+  width: 200px;
+  margin-right: 105px;
+  justify-self: center;
+  border-style: double;
+  border-color: burlywood;
+  border-width: 10px;
+  background-color: wheat;
+  border-radius: 135px;
+}
+.Feature {
+  align-self: flex-end;
+  margin-right: 20px;
+  background-color: wheat;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+  max-width: 400px;
+  text
+}
+.maintext {
+  color: rgb(35, 41, 51);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 200px;
+  max-width: 500px;
+  margin-left: 30px;
+  text-align: left;
+  overflow-y: scroll;
+  padding: 9px;
+  background-color: wheat;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+}
+h3{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.socials {
+  max-width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+  background-color: wheat;
+}
+.instagram{
+  width: 80px;
+  float: right;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.snapchat{
+  width: 150px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.discord{
+  width: 90px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.email{
+  width: 100px;
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+}
+footer {
+  background-color: wheat;
+  border-color: burlywood;
+  border-style: outset;
+  border-width: 10px;
+  background-color: wheat;
+}
+
+a:link {
+  color: darkslategrey;
+}
+a:visited {
+  color: firebrick;
+}
+a:hover {
+  color: yellowgreen;
+}
+a:active {
+  color: orangered;
+}
